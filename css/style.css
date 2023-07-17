@@ -1,0 +1,340 @@
+.body {
+	background-color: #FAFAFA;
+}
+/*Header*/
+.header {
+	background-image: url(../images/header.jpg);
+	height: 900px;
+	max-width: 1280px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.log-nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin: 0 auto;
+}
+.logo {
+	font-family: Dancing Script;
+	font-weight: bold;
+	font-size: 28px;
+	color: #D9F0FF;
+	padding-top: 51px;
+	padding-left: 67px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.navigation {
+	max-width: 345px;
+	width: 100%;
+	height: 17px;
+	padding-top: 70.3px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.nav-a {
+	font-family: Poppins;
+	font-weight: medium;
+	font-size: 12px;
+	vertical-align: top;
+	color: #D9F0FF;
+	padding-right: 30px;
+}
+.header-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 1017.44px;
+	width: 100%;
+	height: 144.83px;
+	margin: 0 auto;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-top: 336.5px;
+}
+.h1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-family: Lato;
+	font-weight: Light;
+	font-size: 100px;
+	color: #FFFFFF;
+}
+/*First Section*/
+.section1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+	height: 601.44px;
+}
+.sec-div1 {
+	display: flex;
+	flex-direction: column;
+	max-width: 640px;
+	width: 100%;
+	height: 601.44px;
+}
+.h1-2 {
+	display: flex;
+	margin: 0 auto;
+	max-width: 468px;
+	width: 100%;
+	height: 186px;
+	font-family: Lato;
+	font-weight: Light;
+	font-size: 50px;
+	/*margin: 90px 86px 24px;*/
+	margin-top: 90px;
+	margin-bottom: 24px;
+}
+.h3 {
+	display: flex;
+	max-width: 457px;
+	margin: 0 auto;
+	width: 100%;
+	height: 128px;
+	font-family: Poppins;
+	font-weight: Regular;
+	font-size: 16px;
+	/*margin-right: 97px;*/
+	/*margin-left: 86px;*/
+}
+.div-projects {
+	display: flex;
+	margin: 0 auto;
+	background-color: #325DFF;
+	max-width: 307px;
+	width: 100%;
+	height: 72px;
+	border-radius: 36px;
+	/*margin: 0px 251px 101.4px 82px;*/
+	margin-bottom: 101.4px;
+}
+.projects {
+	/*width: 217px;*/
+	/*height: 22px;*/
+	font-family: Lato;
+	font-weight: Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 27px 45px 23px 45px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.sec-div2 {
+	display: flex;
+	margin: 0 auto;
+	max-width: 640px;
+	width: 100%;
+	height: 601.44px;
+}
+.sec-image {
+	display: flex;
+	margin: 0 auto;
+	max-width: 640px;
+	width: 100%;
+	height: 601px;
+}
+/*Second Section*/
+.section2 {
+	max-width: 1171px;
+	width: 100%
+	height: 965px;
+	margin: 76.6px 54px 119px 55px;
+}
+.sec2-div1 {
+	max-width: 771px;
+	width: 100%
+	height: 130px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 62px;
+}
+.h2 {
+	display: flex;
+	margin: 0 auto;
+	max-width: 570px;
+	width: 100%;
+	height: 50px;
+	font-family: Lato;
+	font-weight: Light;
+	font-size: 35px;
+	/*margin-right: 101px;*/
+	/*margin-left: 100px;*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.h3-2 {
+	max-width: 771px;
+	width: 100%;
+	height: 71px;
+	margin-top: 9px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 auto;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-indent: 10px;
+}
+.sec2-div2 {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1171px;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.peace {
+	display: inline-block;
+	max-width: 371px;
+	width: 100%
+	height: 374px;
+}
+.blue-back {
+	background-color: #325DFF;
+	border-radius: 44px;
+	max-width: 88px;
+	width: 100%
+	height: 88px;
+	margin: 78px 137px 16px 146px;
+}
+.images1 {
+	margin: 17px 31px 35px 25px;
+}
+.h3-3 {
+	max-width: 233px;
+	width: 100%
+	height: 33px;
+	margin-right: 71px;
+	margin-left: 67px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.paragraph {
+	max-width: 251px;
+	width: 100%
+	height: 106px;
+	margin: 9px 59px 44px 64px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.coffee {
+	display: inline-block;
+	max-width: 369px;
+	width: 100%
+	height: 372px;
+	margin-top: 2px;
+}
+.blue-back2 {
+	background-color: #325DFF;
+	border-radius: 44px;
+	max-width: 88px;
+	width: 100%
+	height: 88px;
+	margin: 65px 140px 25px 141px;
+}
+.images2 {
+	margin: 28px 31.5px 27.3px 32px;
+}
+.rewards {
+	display: inline-block;
+	max-width: 371px;
+	width: 100%
+	height: 374px;
+}
+.blue-back3{
+	background-color: #325DFF;
+	border-radius: 44px;
+	max-width: 88px;
+	width: 100%
+	height: 88px;
+	margin: 67px 141px 27px 142px;
+}
+.images3 {
+	margin: 25.9px 27px;
+}
+.delivery {
+	display: inline-block;
+	max-width: 371px;
+	width: 100%
+	height: 374px;
+}
+.blue-back4 {
+	background-color: #325DFF;
+	border-radius: 44px;
+	max-width: 88px;
+	width: 100%
+	height: 88px;
+	margin: 56px 140px 27px 143px;
+}
+.images4 {
+	margin: 28px 29px 28px 31px;
+}
+.inbox {
+	display: inline-block;
+	max-width: 371px;
+	width: 100%;
+	height: 374px;
+}
+.blue-back5 {
+	background-color: #325DFF;
+	border-radius: 44px;
+	max-width: 88px;
+	width: 100%;
+	height: 88px;
+	margin: 56px 141px 27px 142px;
+}
+.images5 {
+	margin: 28px 29px;
+}
+.settings {
+	display: inline-block;
+	max-width: 371px;
+	width: 100%
+	height: 374px;
+}
+.images6 {
+	margin: 28px 27.8px 28px 28.2px;
+}
+
